@@ -10,8 +10,18 @@
     <title>Index2</title>
 </head>
 <body>
-    <table>
-
+    <table border="1" cellpadding="2">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        @foreach (var alumno in listaAlumnos)
+        {
+        <tr>
+            <th>@alumno.Nombre</th>
+            <th>@alumno.Apellido</th>
+        </tr>
+        }
     </table>
 </body>
 </html>
