@@ -6,11 +6,12 @@ namespace Unidad7_Ejercicios.Models.Entity
     {
         #region atributos privados
         private string nombre;  // field (atributo)
+        private string apellido;
         #endregion
 
         #region propiedades publicas
         public string Nombre { get => nombre; set => nombre = value; }//seria una de las formas de obtener las propiedades de nombre
-
+        public string Apellido { get => apellido; set => apellido = value; }
         //otra forma
         /*public string Name   // property
         {
@@ -30,9 +31,14 @@ namespace Unidad7_Ejercicios.Models.Entity
         public clsPersona()
         {
             Nombre = nombre;
+            Apellido = apellido;
         }
         //constructor por parámetros
         public clsPersona(String nombre)
+        {
+            Nombre = nombre;
+        }
+        public clsPersona(String nombre, String apellido)
         {
             Nombre = nombre;
         }
