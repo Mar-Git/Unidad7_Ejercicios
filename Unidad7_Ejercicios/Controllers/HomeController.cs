@@ -24,8 +24,8 @@ namespace Unidad7_Ejercicios.Controllers
 
         public IActionResult Index2()
         {
-            List<clsPersona> alumnos = new List<clsPersona>();
-            alumnos = Models.DAL.ModelView.getListadoPersonas();
+           
+            List<clsPersona>  alumnos = ModelView.getListadoPersonas();
 
             
 
