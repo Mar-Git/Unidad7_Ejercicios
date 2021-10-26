@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Unidad7_Ejercicios.models.Entity;
+using Unidad7_Ejercicios.Models.Entity;
 
 namespace Unidad7_Ejercicios.Controllers
 {
@@ -13,9 +13,9 @@ namespace Unidad7_Ejercicios.Controllers
         {
             //aqui los ViewData
             ViewData["Hora"] = Models.Utilidades.Utilidades.getSaludoHora();
-            ViewBag.Hora= DateTime.Now.ToString();
+            ViewBag.HoraLarga= DateTime.Now.ToString();
             //Crear objeto persona
-            clsPersona persona = new clsPersona();
+            clsPersona persona = new clsPersona("Mar");
             //el view enviara el objeto persona
             return View(persona);
         }

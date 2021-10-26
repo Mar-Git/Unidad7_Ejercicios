@@ -1,6 +1,6 @@
 ﻿using System;//using en java se corresponde con importar
 //como añadir una propiedad nombre (que contenga un atributo privado) que tenga get
-namespace Unidad7_Ejercicios.models.Entity
+namespace Unidad7_Ejercicios.Models.Entity
 {
     public class clsPersona
     {
