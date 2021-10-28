@@ -24,8 +24,9 @@ namespace Unidad7_Ejercicios.Controllers
 
         public IActionResult Index2()
         {
+            ModelView oMV = new ModelView();
            
-            List<clsPersona>  alumnos = ModelView.getListadoPersonas();
+            List<clsPersona>  alumnos = oMV.getListadoPersonas();
 
             
 

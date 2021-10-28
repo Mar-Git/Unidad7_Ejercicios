@@ -8,7 +8,8 @@ namespace Unidad7_Ejercicios.Models.DAL
 {
     public class ModelView
     {
-        public static List<clsPersona> getListadoPersonas()
+        //public int MyProperty { get; set; }
+        public List<clsPersona> getListadoPersonas()
         {
             List<clsPersona> listaAlumnos = new List<clsPersona>();
 
